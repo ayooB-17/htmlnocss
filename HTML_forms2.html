@@ -1,0 +1,82 @@
+<div class="container">
+  <form action="HTML_forms2.html" autocomplete="on">
+    <fieldset>
+      <legends><b>Customer Info</b></legends>
+      <br />
+
+      <label for="name">Name</label>
+      <input
+        type="text"
+        align="left"
+        id="name"
+        name="name"
+        placeholder="Your name.."
+        autofocus
+        required
+      /><br />
+      <br />
+
+      <label for="phone">Telephone</label>
+      <input
+        type="tel"
+        align="left"
+        id="phone"
+        name="phone"
+        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+        placeholder="Your telephone number.."
+        required
+      /><br />
+      <br />
+
+      <label for="email">Email Address</label>
+      <input
+        type="email"
+        align="left"
+        id="emailAddress"
+        name="email address"
+        placeholder="Your email address.."
+        multiple
+        required
+      /><br />
+    </fieldset>
+    <br />
+
+    <fieldset>
+      <legends><b>Books</b></legends
+      ><br />
+      <label for="books">Books</label>
+      <select id="books" name="books">
+        <option value="the pragmatic programmer: from journeyman to master">
+          The Pragmatic Programmer: From Journeyman to Master
+        </option>
+        <option
+          value="code complete: a practical handbook of software construction, second edition"
+        >
+          Code Complete: A Practical Handbook of Software Construction, Second
+          Edition
+        </option>
+        <option
+          value="don't make me think, revisited: a common sense approach to web usability"
+        >
+          Don't Make Me Think, Revisited: A Common Sense Approach to Web
+          Usability
+        </option>
+        <option value="absolute beginner’s guide to c">
+          Absolute Beginner’s Guide to C
+        </option>
+        <option value="java: a beginner's guide, sixth edition">
+          Java: A Beginner's Guide, Sixth Edition
+        </option>
+        <br /></select
+      ><br />
+      <br />
+
+      <label for="quantity"
+        >Quantity (between 1 and 5):><input type="text"
+      /></label>
+    </fieldset>
+    <br />
+
+    <input type="submit" value="Submit" />
+  </form>
+</div>
